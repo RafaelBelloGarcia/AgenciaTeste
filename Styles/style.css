@@ -228,7 +228,6 @@
 
     
     .Container {
-        
         width: 35vh;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
