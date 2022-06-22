@@ -226,7 +226,6 @@
 
 @media screen and (max-width: 768px) {
 
-
     .Container {
         display: grid;
         grid-template-columns: repeat(4, 1fr);
@@ -249,6 +248,7 @@
 
     .box-2 p {
         margin-top: -35px;
+        width: 60px;
     }
 
     .box-3 {
@@ -324,6 +324,5 @@
     .boxer2 img {
         width: 100%;
     }
-
 
 }
