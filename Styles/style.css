@@ -226,7 +226,10 @@
 
 @media screen and (max-width: 768px) {
 
+    
     .Container {
+        
+        width: 35vh;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -238,7 +241,7 @@
 
     .box-1 {
         grid-area: box-1;
-        width: 130px;
+        width: 150px;
     }
 
     .box-2 {
@@ -246,20 +249,10 @@
         width: 60px;
     }
 
-    .box-2 p {
-        margin-top: -35px;
-        width: 60px;
-    }
-
     .box-3 {
         grid-area: box-3;
         width: 60px;
     }
-
-    .box-3 p {
-        margin-top: -35px;
-    }
-
 
     .box-4 {
         grid-area: box-4;
@@ -277,52 +270,53 @@
         height: 100%;
         background-color: #fff;
     }
-
+    
     .fundobranco aside {
         padding: 10px;
     }
-
+    
     .fundobranco aside p {
         padding: 10px;
     }
-
+    
     #cor {
         color: rgba(128, 128, 128, 0.548);
     }
-
+    
     #buy {
         padding-left: 25px;
     }
-
+    
     .main-4a {
         display: cover;
         padding-left: 50px;
         padding-right: 50px;
         background-color: rgba(128, 128, 128, 0.37);
-        height: 65vh;
+        height: 55vh;
     }
-
+    
     .main-4a h2 {
         font-size: 20px;
         padding-bottom: 15px;
     }
-
+    
     .main-4a h3 {
         font-size: 15px;
         padding-bottom: 20px
     }
-
+    
     .container-main4 {
         display: flex;
         gap: 20px;
     }
-
+    
     .boxer1 img {
         width: 100%;
     }
-
+    
     .boxer2 img {
         width: 100%;
     }
+    
 
 }
