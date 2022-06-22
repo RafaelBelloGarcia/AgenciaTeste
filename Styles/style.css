@@ -225,11 +225,9 @@
 }
 
 @media screen and (max-width: 768px) {
-
     
     .Container {
-        
-        width: 35vh;
+        width: 60vh;
         display: grid;
         grid-template-columns: repeat(4, 1fr);
         grid-template-rows: repeat(2, 1fr);
@@ -241,27 +239,27 @@
 
     .box-1 {
         grid-area: box-1;
-        width: 150px;
+        width: 196px;
     }
 
     .box-2 {
         grid-area: box-2;
-        width: 60px;
+        width: fit-content;
     }
 
     .box-3 {
         grid-area: box-3;
-        width: 60px;
+        width: fit-content;
     }
 
     .box-4 {
         grid-area: box-4;
-        width: 60px;
+        width: fit-content;
     }
 
     .box-5 {
         grid-area: box-5;
-        width: 60px;
+        width: fit-content;
     }
 
     .fundobranco {
@@ -317,6 +315,5 @@
     .boxer2 img {
         width: 100%;
     }
-    
 
 }
