@@ -1,0 +1,28 @@
+.Panel-Travel button {
+    padding: 15px;
+    background-color: gray;
+    border: none;
+    color: #fff;
+}
+
+.buttontravel {
+    padding-top: 20px;
+}
+
+#botao {
+    padding-top: 20px;
+}
+
+.newsletter button {
+    padding: 15px;
+    background-color: #fe7467;
+    border: none;
+    color: #fff;
+}
+
+.button-form button {
+    padding: 15px;
+    background-color: black;
+    border: none;
+    color: #fff;
+}

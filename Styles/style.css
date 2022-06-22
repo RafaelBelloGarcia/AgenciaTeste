@@ -1,0 +1,322 @@
+.layout img {
+    width: 100%;
+}
+
+.layout-box {
+    background: rgba(128, 128, 128, 0.37);
+    box-sizing: border-box;
+    padding-left: 50px;
+    padding-right: 50px;
+    padding-bottom: 40px;
+}
+
+.layout-box h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.layout-box h3 {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.Container {
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-gap: 20px;
+    grid-template-areas:
+        "box-1 box-1 box-2 box-3"
+        "box-1 box-1 box-4 box-5";
+}
+
+.box-1 {
+    grid-area: box-1;
+}
+
+.box-1 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.box-2 {
+    grid-area: box-2;
+}
+
+.box-2 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.box-3 {
+    grid-area: box-3;
+}
+
+.box-3 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.box-4 {
+    grid-area: box-4;
+}
+
+.box-4 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.box-5 {
+    grid-area: box-5;
+}
+
+.box-5 p {
+    color: white;
+    margin-top: -20px;
+}
+
+.fundobranco {
+    display: cover;
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+}
+
+.fundobranco aside {
+    padding: 20px;
+}
+
+.fundobranco aside p {
+    padding: 10px;
+}
+
+#cor {
+    color: rgba(128, 128, 128, 0.548);
+}
+
+#buy {
+    padding-left: 25px;
+}
+
+.main-4a {
+    display: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(128, 128, 128, 0.37);
+    height: 100vh;
+}
+
+.main-4a h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.main-4a h3 {
+    font-size: 15px;
+    padding-bottom: 20px
+}
+
+.container-main4 {
+    display: flex;
+    gap: 20px;
+}
+
+.boxer1 img {
+    width: 100%;
+}
+
+.boxer2 img {
+    width: 100%;
+}
+
+.panel-newsletter {
+    display: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(128, 128, 128, 0.37);
+    height: 100%;
+}
+
+.newsletter {
+    background-color: rgba(0, 0, 0, 0.582);
+    height: 100%;
+    padding: 20px;
+    color: #fff;
+}
+
+.newsletter h2 {
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.newsletter h3 {
+    padding-bottom: 20px;
+}
+
+.email p {
+    padding-bottom: 5px;
+}
+
+.email input {
+    width: 100%;
+    padding: 10px;
+}
+
+.panel-footer {
+    display: cover;
+    padding-left: 50px;
+    padding-right: 50px;
+    background-color: rgba(128, 128, 128, 0.37);
+    height: 100%;
+}
+
+.panel-footer h2 {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 30px;
+}
+
+.panel-footer h3 {
+    padding-bottom: 20px;
+}
+
+.contat {
+    padding-bottom: 20px;
+}
+
+.formulario {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.formulario p input {
+    padding: 15px;
+    width: 100%;
+    border-color: rgba(0, 0, 0, 0.582)
+}
+
+.find h4 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.find h5 {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    gap: 10px;
+}
+
+.find h5 img {
+    width: 20px;
+    gap: 10px;
+}
+
+.find h6 {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    gap: 3px;
+}
+
+@media screen and (max-width: 768px) {
+
+    
+    .Container {
+        
+        width: 35vh;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        grid-gap: 10px;
+        grid-template-areas:
+            "box-1 box-1 box-2 box-3"
+            "box-1 box-1 box-4 box-5";
+    }
+
+    .box-1 {
+        grid-area: box-1;
+        width: 150px;
+    }
+
+    .box-2 {
+        grid-area: box-2;
+        width: 60px;
+    }
+
+    .box-3 {
+        grid-area: box-3;
+        width: 60px;
+    }
+
+    .box-4 {
+        grid-area: box-4;
+        width: 60px;
+    }
+
+    .box-5 {
+        grid-area: box-5;
+        width: 60px;
+    }
+
+    .fundobranco {
+        display: cover;
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+    }
+    
+    .fundobranco aside {
+        padding: 10px;
+    }
+    
+    .fundobranco aside p {
+        padding: 10px;
+    }
+    
+    #cor {
+        color: rgba(128, 128, 128, 0.548);
+    }
+    
+    #buy {
+        padding-left: 25px;
+    }
+    
+    .main-4a {
+        display: cover;
+        padding-left: 50px;
+        padding-right: 50px;
+        background-color: rgba(128, 128, 128, 0.37);
+        height: 55vh;
+    }
+    
+    .main-4a h2 {
+        font-size: 20px;
+        padding-bottom: 15px;
+    }
+    
+    .main-4a h3 {
+        font-size: 15px;
+        padding-bottom: 20px
+    }
+    
+    .container-main4 {
+        display: flex;
+        gap: 20px;
+    }
+    
+    .boxer1 img {
+        width: 100%;
+    }
+    
+    .boxer2 img {
+        width: 100%;
+    }
+    
+
+}

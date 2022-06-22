@@ -1,0 +1,56 @@
+.header {
+    position: sticky;
+    padding-left: 2%;
+    top: 0;
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 10;
+    color: #fff;
+    height: 50px;
+    width: 100%;
+}
+
+.Logo-posi {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.Logo-posi img {
+    width: 20px;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    gap: 10px;
+}
+
+.menu input {
+    border-radius: 0.8rem solid black;
+}
+
+.menu img {
+    width: 40px;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    .header {
+        padding-left: 8%;
+    }
+
+    .menu input {
+        width: 50%;
+        border-radius: 0.8rem solid black;
+    }
+
+}
