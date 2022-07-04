@@ -36,6 +36,7 @@
     grid-area: box-1;
     display: flex;
     align-content: stretch;
+    justify-content: stretch;
 }
 
 .box-1 p {
@@ -50,6 +51,7 @@
     grid-area: box-2;
     display: flex;
     align-content: stretch;
+    justify-content: stretch;
 }
 
 .box-2 p {
@@ -64,6 +66,7 @@
     grid-area: box-3;
     display: flex;
     align-content: stretch;
+    justify-content: stretch;
 }
 
 .box-3 p {
@@ -78,6 +81,7 @@
     grid-area: box-4;
     display: flex;
     align-content: stretch;
+    justify-content: stretch;
 }
 
 .box-4 p {
@@ -93,6 +97,7 @@
     grid-area: box-5;
     display: flex;
     align-content: stretch;
+    justify-content: stretch;
 }
 
 .box-5 p {
