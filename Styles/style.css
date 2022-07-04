@@ -23,7 +23,6 @@
 }
 
 .Container {
-    box-sizing: border-box;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-template-rows: repeat(2, 1fr);
@@ -35,47 +34,73 @@
 
 .box-1 {
     grid-area: box-1;
+    display: flex;
+    align-content: stretch;
 }
 
 .box-1 p {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
     color: white;
-    margin-top: -20px;
+    margin-left:-100%;
 }
 
 .box-2 {
     grid-area: box-2;
+    display: flex;
+    align-content: stretch;
 }
 
 .box-2 p {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
     color: white;
-    margin-top: -20px;
+    margin-left:-100%;
 }
 
 .box-3 {
     grid-area: box-3;
+    display: flex;
+    align-content: stretch;
 }
 
 .box-3 p {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
     color: white;
-    margin-top: -20px;
+    margin-left:-100%;
 }
 
 .box-4 {
     grid-area: box-4;
+    display: flex;
+    align-content: stretch;
 }
 
 .box-4 p {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
     color: white;
-    margin-top: -20px;
+    margin-left:-100%;
+
 }
 
 .box-5 {
     grid-area: box-5;
+    display: flex;
+    align-content: stretch;
 }
 
 .box-5 p {
+    display: flex;
+    align-items: flex-end;
+    position: relative;
     color: white;
-    margin-top: -20px;
+    margin-left:-100%;
 }
 
 .fundobranco {
@@ -226,66 +251,29 @@
 
 @media screen and (max-width: 768px) {
 
-    
-    .Container {
-        width: 35vh;
-        display: grid;
-        grid-template-columns: repeat(4, 1fr);
-        grid-template-rows: repeat(2, 1fr);
-        grid-gap: 10px;
-        grid-template-areas:
-            "box-1 box-1 box-2 box-3"
-            "box-1 box-1 box-4 box-5";
-    }
-
-    .box-1 {
-        grid-area: box-1;
-        width: 150px;
-    }
-
-    .box-2 {
-        grid-area: box-2;
-        width: 60px;
-    }
-
-    .box-3 {
-        grid-area: box-3;
-        width: 60px;
-    }
-
-    .box-4 {
-        grid-area: box-4;
-        width: 60px;
-    }
-
-    .box-5 {
-        grid-area: box-5;
-        width: 60px;
-    }
-
     .fundobranco {
         display: cover;
         width: 100%;
         height: 100%;
         background-color: #fff;
     }
-    
+
     .fundobranco aside {
         padding: 10px;
     }
-    
+
     .fundobranco aside p {
         padding: 10px;
     }
-    
+
     #cor {
         color: rgba(128, 128, 128, 0.548);
     }
-    
+
     #buy {
         padding-left: 25px;
     }
-    
+
     .main-4a {
         display: cover;
         padding-left: 50px;
@@ -293,29 +281,29 @@
         background-color: rgba(128, 128, 128, 0.37);
         height: 62vh;
     }
-    
+
     .main-4a h2 {
         font-size: 20px;
         padding-bottom: 15px;
     }
-    
+
     .main-4a h3 {
         font-size: 15px;
         padding-bottom: 20px
     }
-    
+
     .container-main4 {
         display: flex;
         gap: 20px;
     }
-    
+
     .boxer1 img {
         width: 100%;
     }
-    
+
     .boxer2 img {
         width: 100%;
     }
-    
+
 
 }
