@@ -1,11 +1,9 @@
 .header {
     position: sticky;
-    padding-left: 2%;
     top: 0;
     background-color: #fff;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     align-items: center;
     z-index: 10;
     color: #fff;
@@ -14,6 +12,15 @@
 }
 
 .Logo-posi {
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    color: black;
+}
+
+.menu {
+    padding: 40px;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -21,24 +28,13 @@
     color: black;
 }
 
-.Logo-posi img {
-    width: 20px;
-}
-
-.menu {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: fit-content;
-    gap: 10px;
-}
-
 .menu input {
+    border: black;
     border-radius: 0.8rem solid black;
 }
 
 .menu img {
-    width: 40px;
+    width: 20px;
 }
 
 

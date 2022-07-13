@@ -4,44 +4,47 @@
     grid-template-rows: 1fr 0.2fr 1.5fr 1fr 1fr;
     gap: 0px 0px;
     grid-auto-flow: row;
-}
-
-.background {
     background-size: cover;
     background-image: url("../imagens/london.jpg");
     grid-area: 1 / 1 / 6 / 6;
 }
 
 .panel {
+    display: flex;
+    flex-direction: column;
     grid-area: 2 / 2 / 4 / 5;
     background-color: #fff;
 }
 
+.navbar {
+    display: flex
+}
+
 .Flight {
-    grid-area: 2 / 2 / 3 / 3;
+    width: 100%;
     padding: 8px;
     text-align: center;
     background-color: red;
     color: #fff;
-    border: none;
+    border: red;
 }
 
 .Hotel {
-    grid-area: 2 / 3 / 3 / 4;
+    width: 100%;
     padding: 8px;
     text-align: center;
     background-color: black;
     color: #fff;
+    border: black;
 }
 
 .Rental {
-    grid-area: 2 / 4 / 3 / 5;
+    width: 100%;
     padding: 8px;
-    text-align: center;
-    padding: 10px;
     text-align: center;
     background-color: black;
     color: #fff;
+    border: black;
 }
 
 .Panel-Travel {
@@ -70,9 +73,11 @@
 }
 
 .input {
-    width: 23rem;
+    box-sizing: border-box;
+    width: 100%;
     border-radius: 0.5rem;
     padding: 0.8rem;
+    border: black;
 }
 
 @media screen and (max-width: 768px) {
@@ -92,8 +97,10 @@
     }
 
     .input {
-        width: 120px;
+        width: 100%;
         border-radius: 0.5rem;
         padding: 0.8rem;
+        border: black;
+
     }
 }

@@ -35,8 +35,7 @@
 .box-1 {
     grid-area: box-1;
     display: flex;
-    align-content: stretch;
-    justify-content: stretch;
+    object-fit:contain;
 }
 
 .box-1 p {
@@ -44,14 +43,13 @@
     align-items: flex-end;
     position: relative;
     color: white;
-    margin-left:-100%;
+    margin-left: -100%;
 }
 
 .box-2 {
     grid-area: box-2;
     display: flex;
-    align-content: stretch;
-    justify-content: stretch;
+    object-fit:contain;
 }
 
 .box-2 p {
@@ -59,14 +57,13 @@
     align-items: flex-end;
     position: relative;
     color: white;
-    margin-left:-100%;
+    margin-left: -100%;
 }
 
 .box-3 {
     grid-area: box-3;
     display: flex;
-    align-content: stretch;
-    justify-content: stretch;
+    object-fit:contain;
 }
 
 .box-3 p {
@@ -74,14 +71,13 @@
     align-items: flex-end;
     position: relative;
     color: white;
-    margin-left:-100%;
+    margin-left: -100%;
 }
 
 .box-4 {
     grid-area: box-4;
     display: flex;
-    align-content: stretch;
-    justify-content: stretch;
+    object-fit:contain;
 }
 
 .box-4 p {
@@ -89,15 +85,14 @@
     align-items: flex-end;
     position: relative;
     color: white;
-    margin-left:-100%;
+    margin-left: -100%;
 
 }
 
 .box-5 {
     grid-area: box-5;
     display: flex;
-    align-content: stretch;
-    justify-content: stretch;
+    object-fit:contain;
 }
 
 .box-5 p {
@@ -105,7 +100,7 @@
     align-items: flex-end;
     position: relative;
     color: white;
-    margin-left:-100%;
+    margin-left: -100%;
 }
 
 .fundobranco {
@@ -309,6 +304,5 @@
     .boxer2 img {
         width: 100%;
     }
-
 
 }
